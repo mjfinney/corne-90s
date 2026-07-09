@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <behaviors/num_word.dtsi>
 
 #define DEFAULT 0
 #define SYM     1
@@ -57,7 +58,7 @@
    &kp TAB     &kp Q       &kp W      &kp E        &kp R      &kp T   &kp Y &kp U         &kp I       &kp O       &kp P          &kp BSPC
    &kp ESC     &mt LCTRL A &mt LALT S &mt LSHIFT D &mt LGUI F &kp G   &kp H &mt RGUI J  &mt RSHIFT K  &mt RALT L  &mt RCTRL SEMI &mt GLOBE SQT
    &kp GLOBE   &kp Z       &kp X      &kp C        &kp V      &kp B   &kp N &kp M         &kp COMMA   &kp DOT     &kp FSLH       &kp ENTER
-                                         &mo NUM &kp LGUI &kp ENTER   &kp SPACE &mo SYM &mo NAV
+                                         &num_word NUM &kp LGUI &kp ENTER   &kp SPACE &mo SYM &mo NAV
                         >;
                 };
 

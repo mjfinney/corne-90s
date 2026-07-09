@@ -4,11 +4,16 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: m165437
       url-base: https://github.com/M165437 #nice view customization
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
+    - name: zmk-auto-layer
+      remote: urob
+      revision: v0.3
     - name: nice-view-gem
       remote: m165437
       revision: v0.3.0
